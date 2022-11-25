@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.inputbox {
+    width: 30%;
+    padding: 5px;
+}
+
+.page {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginbtn {
+    width: 10%;
+    height: 3em;
+    background-color: mediumslateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.warrning{
+    color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.signup {
+    text-decoration: none;
+}
+
+.block {
+    background-color: mediumturquoise;
+    padding: 1rem;
+    margin: 00.5rem;
+    border-radius: 0.25rem;
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+  }
+  .row.center {
+    align-items: center;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .navlink {
+    padding-right: 20px;
+  }
+
+  .navlink:hover {
+    cursor: default;
+    color: whitesmoke;
+    cursor: pointer;
+  }
